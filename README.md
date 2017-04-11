@@ -9,6 +9,7 @@ Options:
 * **-n**: Name of VM (required)
 * **-d**: Location of a VMDK disk file.  - `/vmfs/volumes/datastore_number_here/path/to/vmdk_file.vmdk`
 * **-c**: Number of virtual CPUs
+* **-h**: VMware Hardware Version
 * **-i**: Location of an ISO image. Location must be in this format - `/vmfs/volumes/datastore_number_here/path/to/iso_file.iso`
 * **-o**: Apple OS version
 * **-r**: RAM size in MB
