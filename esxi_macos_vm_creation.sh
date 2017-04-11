@@ -45,7 +45,7 @@ phelp() {
 	echo ""
 	echo "n: Name of VM (required). If using a name with spaces and/or special characters, add quotation marks to the VM name."
 	echo "c: Number of virtual CPUs. Default number is two."
-	echo "d: location of a VMDK disk file (required). Location must be in this format - /vmfs/volumes/datastore_number_here/path/to/vmdk_file.vmdk"
+	echo "d: Location of a VMDK disk file (required). Location must be in this format - /vmfs/volumes/datastore_number_here/path/to/vmdk_file.vmdk"
 	echo "h: VMware hardware version. ESXi 5.5 supports up to HW 10, ESXi 6.x supports up to HW 11 and ESXi 6.5 supports up to HW 13."
 	echo "i: Location of an ISO image. Location must be in this format - /vmfs/volumes/datastore_number_here/path/to/iso_file.iso"
 	echo "o: Mac operating system version. Default is set to darwin14, which reports the guest OS as OS X Yosemite."
